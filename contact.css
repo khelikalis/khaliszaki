@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:none;
+}
+
+li, a, button {
+    font-family: "Dongle", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: rgb(250, 234, 7);
+    text-decoration: none;
+    background-color: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    color: beige; 
+    font-size: 40px;
+}
+
+.logo {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+
+.nav__links{
+    list-style: none;
+    
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    
+}
+
+.nav__links li a :hover {
+    color: beige
+    
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button :hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
